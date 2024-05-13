@@ -24,7 +24,7 @@
 		"lint": "eslint --fix .",
 		"type-check": "tsc --noEmit",
 		"test": "globstar -- node --import tsx --test \"src/**/*.test.ts\"",
-		"prepack": "npm run build && clean-pkg-json"
+		"prepack": "npm run build"
 	},
 	"simple-git-hooks": {
 		"pre-commit": "pretty-quick --staged"
@@ -43,7 +43,6 @@
 		"@smeijer/eslint-config": "^1.5.0",
 		"@smeijer/tsconfig": "^1.0.0",
 		"@types/node": "^18.19.31",
-		"clean-pkg-json": "^1.2.0",
 		"globstar": "^1.0.0",
 		"pkgroll": "^2.0.2",
 		"pretty-quick": "^4.0.0",
