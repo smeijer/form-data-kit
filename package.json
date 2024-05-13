@@ -1,6 +1,6 @@
 {
 	"name": "form-data-kit",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"description": "a lib to parse, stringify, and expand FormData",
 	"license": "MIT",
 	"repository": {
