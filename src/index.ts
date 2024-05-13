@@ -1,6 +1,6 @@
 // COPY FROM: https://github.com/smeijer/next-runtime/blob/9bee117165e138f22a03b48a4a41c292cdd3a6a9/src/runtime/set-field.ts
 
-function setField<T extends Record<string, unknown>>(
+export function setField<T extends Record<string, unknown>>(
 	data: any,
 	name: string,
 	value: unknown,
